@@ -113,7 +113,7 @@ func (e *daijirinExtractor) exportRules(term *dbTerm, tags []string) {
 }
 
 func (*daijirinExtractor) getRevision() string {
-	return "daijirin2"
+	return "daijirin3"
 }
 
 func (*daijirinExtractor) getFontNarrow() map[int]string {
@@ -947,6 +947,7 @@ func (*daijirinExtractor) getFontWide() map[int]string {
 		42615: "蘞",
 		42616: "莕",
 		42617: "蒅",
+		42618: "𫈇",
 		42619: "芿",
 		42620: "悆",
 		42621: "忞",
@@ -1034,6 +1035,7 @@ func (*daijirinExtractor) getFontWide() map[int]string {
 		42867: "瞟",
 		42868: "瞍",
 		42869: "眶",
+		42870: "𥉁",
 		42871: "畾",
 		42872: "矪",
 		42873: "矬",
@@ -1302,6 +1304,7 @@ func (*daijirinExtractor) getFontWide() map[int]string {
 		43623: "鐖",
 		43624: "鑯",
 		43625: "闋",
+		43626: "𨵦",
 		43627: "鏱",
 		43628: "鈼",
 		43629: "𨫤",
@@ -1641,6 +1644,7 @@ func (*daijirinExtractor) getFontWide() map[int]string {
 		44611: "衤",
 		44612: "飠",
 		44613: "𩙿",
+		44618: "ϒ", /* ♈︎ is also similar (for 雁点)*/
 		44619: "𤣥", /* FIXME: 欠画 */
 		44621: "⺩",
 		44622: "⺏",  /* FIXME: 尢, this but with with leg stretched as in 尩 */
@@ -1709,6 +1713,7 @@ func (*daijirinExtractor) getFontWide() map[int]string {
 		45125: "♥",
 		45126: "𝄐", /* FIXME: フェルマータ */
 		45127: "℥",
+		45129: "乀",
 		45130: "♩",
 		45131: "𝄉", /* FIXME: ダルセーニョ */
 		45132: "𝄪", /* FIXME: 重嬰記号 */
