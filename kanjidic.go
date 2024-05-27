@@ -1,10 +1,10 @@
-package yomichan
+package rikaitan
 
 import (
 	"os"
 	"strconv"
 
-	"foosoft.net/projects/jmdict"
+	jmdict "github.com/Ajatt-Tools/jmdict-go"
 )
 
 func kanjidicExtractKanji(entry jmdict.KanjidicCharacter, language string) *dbKanji {

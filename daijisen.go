@@ -1,10 +1,10 @@
-package yomichan
+package rikaitan
 
 import (
 	"regexp"
 	"strings"
 
-	zig "foosoft.net/projects/zero-epwing-go"
+	zig "github.com/Ajatt-Tools/zero-epwing-go"
 )
 
 type daijisenExtractor struct {
@@ -1246,7 +1246,7 @@ func (*daijisenExtractor) getFontWide() map[int]string {
 		0xbc70: "异",
 		0xbc72: "麀",
 		0xbc73: "𥫱",
-		0xbc74: "朮",
+		0xbc74: "𦬸",
 		0xbc75: "𧐐",
 		0xbd5c: "慒",
 		0xbd5d: "𪙉",

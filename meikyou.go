@@ -1,10 +1,10 @@
-package yomichan
+package rikaitan
 
 import (
 	"regexp"
 	"strings"
 
-	zig "foosoft.net/projects/zero-epwing-go"
+	zig "github.com/Ajatt-Tools/zero-epwing-go"
 )
 
 type meikyouExtractor struct {

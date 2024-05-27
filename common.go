@@ -1,4 +1,4 @@
-package yomichan
+package rikaitan
 
 import (
 	"archive/zip"
@@ -158,10 +158,10 @@ func (index *dbIndex) setDefaults() {
 		index.Format = 3
 	}
 	if index.Author == "" {
-		index.Author = "yomichan-import"
+		index.Author = "rikaitan-import"
 	}
 	if index.Url == "" {
-		index.Url = "https://github.com/FooSoft/yomichan-import"
+		index.Url = "https://github.com/Ajatt-Tools/rikaitan-import"
 	}
 }
 

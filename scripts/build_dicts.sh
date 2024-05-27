@@ -1,6 +1,6 @@
 #!/bin/bash
 
-go get foosoft.net/projects/yomichan-import/yomichan
+go get github.com/Ajatt-Tools/rikaitan-import/tree/master/rikaitan
 
 mkdir -p src
 mkdir -p dst
@@ -17,27 +17,27 @@ function refresh_source () {
 }
 
 refresh_source "JMdict_e_examp"
-yomichan -language="english_extra" -title="JMdict" src/JMdict_e_examp dst/jmdict_english_extra_with_examples.zip
+rikaitan -language="english_extra" -title="JMdict" src/JMdict_e_examp dst/jmdict_english_extra_with_examples.zip
 
 refresh_source "JMdict"
-yomichan -language="english_extra" -title="JMdict"         src/JMdict dst/jmdict_english_extra.zip
-yomichan -language="english"   -title="JMdict (English)"   src/JMdict dst/jmdict_english.zip
-yomichan -language="dutch"     -title="JMdict (Dutch)"     src/JMdict dst/jmdict_dutch.zip
-yomichan -language="french"    -title="JMdict (French)"    src/JMdict dst/jmdict_french.zip
-yomichan -language="german"    -title="JMdict (German)"    src/JMdict dst/jmdict_german.zip
-yomichan -language="hungarian" -title="JMdict (Hungarian)" src/JMdict dst/jmdict_hungarian.zip
-yomichan -language="russian"   -title="JMdict (Russian)"   src/JMdict dst/jmdict_russian.zip
-yomichan -language="slovenian" -title="JMdict (Slovenian)" src/JMdict dst/jmdict_slovenian.zip
-yomichan -language="spanish"   -title="JMdict (Spanish)"   src/JMdict dst/jmdict_spanish.zip
-yomichan -language="swedish"   -title="JMdict (Swedish)"   src/JMdict dst/jmdict_swedish.zip
+rikaitan -language="english_extra" -title="JMdict"         src/JMdict dst/jmdict_english_extra.zip
+rikaitan -language="english"   -title="JMdict (English)"   src/JMdict dst/jmdict_english.zip
+rikaitan -language="dutch"     -title="JMdict (Dutch)"     src/JMdict dst/jmdict_dutch.zip
+rikaitan -language="french"    -title="JMdict (French)"    src/JMdict dst/jmdict_french.zip
+rikaitan -language="german"    -title="JMdict (German)"    src/JMdict dst/jmdict_german.zip
+rikaitan -language="hungarian" -title="JMdict (Hungarian)" src/JMdict dst/jmdict_hungarian.zip
+rikaitan -language="russian"   -title="JMdict (Russian)"   src/JMdict dst/jmdict_russian.zip
+rikaitan -language="slovenian" -title="JMdict (Slovenian)" src/JMdict dst/jmdict_slovenian.zip
+rikaitan -language="spanish"   -title="JMdict (Spanish)"   src/JMdict dst/jmdict_spanish.zip
+rikaitan -language="swedish"   -title="JMdict (Swedish)"   src/JMdict dst/jmdict_swedish.zip
 
-yomichan -format="forms"       -title="JMdict Forms"       src/JMdict dst/jmdict_forms.zip
+rikaitan -format="forms"       -title="JMdict Forms"       src/JMdict dst/jmdict_forms.zip
 
 refresh_source "JMnedict.xml"
-yomichan src/JMnedict.xml dst/jmnedict.zip
+rikaitan src/JMnedict.xml dst/jmnedict.zip
 
 refresh_source "kanjidic2.xml"
-yomichan -language="english"    -title="KANJIDIC"              src/kanjidic2.xml dst/kanjidic_english.zip
-yomichan -language="french"     -title="KANJIDIC (French)"     src/kanjidic2.xml dst/kanjidic_french.zip
-yomichan -language="portuguese" -title="KANJIDIC (Portuguese)" src/kanjidic2.xml dst/kanjidic_portuguese.zip
-yomichan -language="spanish"    -title="KANJIDIC (Spanish)"    src/kanjidic2.xml dst/kanjidic_spanish.zip
+rikaitan -language="english"    -title="KANJIDIC"              src/kanjidic2.xml dst/kanjidic_english.zip
+rikaitan -language="french"     -title="KANJIDIC (French)"     src/kanjidic2.xml dst/kanjidic_french.zip
+rikaitan -language="portuguese" -title="KANJIDIC (Portuguese)" src/kanjidic2.xml dst/kanjidic_portuguese.zip
+rikaitan -language="spanish"    -title="KANJIDIC (Spanish)"    src/kanjidic2.xml dst/kanjidic_spanish.zip

@@ -1,4 +1,4 @@
-package yomichan
+package rikaitan
 
 import (
 	"fmt"

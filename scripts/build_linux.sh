@@ -1,14 +1,14 @@
 #!/bin/bash
 
 mkdir -p dst
-mkdir -p yomichan-import
+mkdir -p rikaitan-import
 
-go build foosoft.net/projects/yomichan-import/yomichan
-go build foosoft.net/projects/yomichan-import/yomichan-gtk
+go build github.com/Ajatt-Tools/rikaitan-import/tree/master/yomichan
+go build github.com/Ajatt-Tools/rikaitan-import/tree/master/yomichan-gtk
 
-mv yomichan yomichan-import
-mv yomichan-gtk yomichan-import
+mv rikaitan rikaitan-import
+mv rikaitan-gtk rikaitan-import
 
-tar czvf dst/yomichan-import_linux.tar.gz yomichan-import
+tar czvf dst/rikaitan-import_linux.tar.gz rikaitan-import
 
-rm -rf yomichan-import
+rm -rf rikaitan-import

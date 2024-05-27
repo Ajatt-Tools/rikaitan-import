@@ -1,4 +1,4 @@
-package yomichan
+package rikaitan
 
 type LangCode struct {
 	language string

@@ -1,4 +1,4 @@
-package yomichan
+package rikaitan
 
 type contentAttr struct {
 	lang               string

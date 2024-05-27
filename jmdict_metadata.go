@@ -1,9 +1,9 @@
-package yomichan
+package rikaitan
 
 import (
 	"strings"
 
-	"foosoft.net/projects/jmdict"
+	jmdict "github.com/Ajatt-Tools/jmdict-go"
 	"golang.org/x/exp/slices"
 )
 

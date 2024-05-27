@@ -1,4 +1,4 @@
-package yomichan
+package rikaitan
 
 import (
 	"golang.org/x/exp/slices"
