@@ -13,18 +13,18 @@
 Rikaitan Import allows users of the [Rikaitan](https://github.com/Ajatt-Tools/rikaitan) extension to import custom
 dictionary files. It currently supports the following formats:
 
-*   [JMdict XML](http://www.edrdg.org/jmdict/edict_doc.html)
-*   [JMnedict XML](http://www.edrdg.org/enamdict/enamdict_doc.html)
-*   [KANJIDIC2 XML](http://www.edrdg.org/kanjidic/kanjd2index.html)
-*   [Rikai SQLite DB](https://www.polarcloud.com/getrcx/)
-*   [EPWING](https://ja.wikipedia.org/wiki/EPWING):
-    *   [Daijirin](https://en.wikipedia.org/wiki/Daijirin) (三省堂　スーパー大辞林)
-    *   [Daijisen](https://en.wikipedia.org/wiki/Daijisen) (大辞泉)
-    *   [Kenkyusha](https://en.wikipedia.org/wiki/Kenky%C5%ABsha%27s_New_Japanese-English_Dictionary) (研究社　新和英大辞典　第５版)
-    *   [Kotowaza](http://www.web-nihongo.com/wn/dictionary/dic_21/d-index.html) (故事ことわざの辞典)
-    *   [Meikyou](https://ja.wikipedia.org/wiki/%E6%98%8E%E9%8F%A1%E5%9B%BD%E8%AA%9E%E8%BE%9E%E5%85%B8) (明鏡国語辞典)
-    *   [Kojien](https://ja.wikipedia.org/wiki/%E5%BA%83%E8%BE%9E%E8%8B%91) (広辞苑第六版 &bull; 付属資料)
-    *   [Gakken](https://ja.wikipedia.org/wiki/%E5%AD%A6%E7%A0%94%E3%83%9B%E3%83%BC%E3%83%AB%E3%83%87%E3%82%A3%E3%83%B3%E3%82%B0%E3%82%B9) (学研国語大辞典 &bull; 古語辞典 &bull; 故事ことわざ辞典 &bull; 学研漢和大字典)
+- [JMdict XML](http://www.edrdg.org/jmdict/edict_doc.html)
+- [JMnedict XML](http://www.edrdg.org/enamdict/enamdict_doc.html)
+- [KANJIDIC2 XML](http://www.edrdg.org/kanjidic/kanjd2index.html)
+- [Rikai SQLite DB](https://www.polarcloud.com/getrcx/)
+- [EPWING](https://ja.wikipedia.org/wiki/EPWING):
+  - [Daijirin](https://en.wikipedia.org/wiki/Daijirin) (三省堂　スーパー大辞林)
+  - [Daijisen](https://en.wikipedia.org/wiki/Daijisen) (大辞泉)
+  - [Kenkyusha](https://en.wikipedia.org/wiki/Kenky%C5%ABsha%27s_New_Japanese-English_Dictionary) (研究社　新和英大辞典　第５版)
+  - [Kotowaza](http://www.web-nihongo.com/wn/dictionary/dic_21/d-index.html) (故事ことわざの辞典)
+  - [Meikyou](https://ja.wikipedia.org/wiki/%E6%98%8E%E9%8F%A1%E5%9B%BD%E8%AA%9E%E8%BE%9E%E5%85%B8) (明鏡国語辞典)
+  - [Kojien](https://ja.wikipedia.org/wiki/%E5%BA%83%E8%BE%9E%E8%8B%91) (広辞苑第六版 &bull; 付属資料)
+  - [Gakken](https://ja.wikipedia.org/wiki/%E5%AD%A6%E7%A0%94%E3%83%9B%E3%83%BC%E3%83%AB%E3%83%87%E3%82%A3%E3%83%B3%E3%82%B0%E3%82%B9) (学研国語大辞典 &bull; 古語辞典 &bull; 故事ことわざ辞典 &bull; 学研漢和大字典)
 
 Rikaitan Import is being expanded to support other EPWING dictionaries based on user demand. This is a mostly
 non-technical (although laborious) process that requires writing regular expressions and creating font tables; volunteer
@@ -39,7 +39,7 @@ Follow the steps outlined below to import your custom dictionary into Rikaitan:
 2.  Launch the `rikaitan-gtk` executable after extracting the entire archive (or `rikaitan` from the command line).
 3.  Specify the source path of the dictionary you wish to convert.
 4.  Specify the target path of the dictionary ZIP archive that you wish to create.
-5.  Press the button labeled *Import dictionary...* and wait for processing to complete.
+5.  Press the button labeled _Import dictionary..._ and wait for processing to complete.
 6.  On the Rikaitan options page, browse to the dictionary ZIP archive file you created.
 7.  Wait for the import progress to complete before closing the options page.
 
