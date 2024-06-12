@@ -1,14 +1,9 @@
 #!/bin/bash
 
-mkdir -p dst
-mkdir -p rikaitan-import
+build_dir="rikaitan-import-linux"
+mkdir -p "$build_dir"
 
-go build github.com/Ajatt-Tools/rikaitan-import/tree/master/yomichan
-go build github.com/Ajatt-Tools/rikaitan-import/tree/master/yomichan-gtk
+go build -o "rikaitan-import-linux" ./rikaitan
+go build -o "rikaitan-import-linux" ./rikaitan-gtk
 
-mv rikaitan rikaitan-import
-mv rikaitan-gtk rikaitan-import
-
-tar czvf dst/rikaitan-import_linux.tar.gz rikaitan-import
-
-rm -rf rikaitan-import
+zip -r "$build_dir.zip" "$build_dir"
