@@ -34,8 +34,8 @@ contributions are welcome.
 
 Follow the steps outlined below to import your custom dictionary into Rikaitan:
 
-1.  Download a pre-built binary for Linux, Mac OS X or Windows from the
-    [project page](https://github.com/Ajatt-Tools/rikaitan-import/releases).
+1.  Download a pre-built binary for Linux or Windows from the [project
+    page](https://github.com/Ajatt-Tools/rikaitan-import/releases).
 2.  Launch the `rikaitan-gtk` executable after extracting the entire archive (or `rikaitan` from the command line).
 3.  Specify the source path of the dictionary you wish to convert.
 4.  Specify the target path of the dictionary ZIP archive that you wish to create.
