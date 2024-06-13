@@ -50,6 +50,6 @@ jobs:
           files: |
             rikaitan-import-linux.zip
             rikaitan-import-windows.zip
-          draft: true
+          draft: false
           generate_release_notes: true
           token: ${{ secrets.GITHUB_TOKEN }}
